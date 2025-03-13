@@ -11,21 +11,20 @@
 
 3 - Activate the existing virtual environment with this:
 
-    Windows - Command Prompt
+### Windows - Command Prompt
 
-'''
-venv\Scripts\activate
-'''
+    venv\Scripts\activate
 
-    Mac/Linux
+### Mac/Linux
 
-'''
-source venv/bin/activate
-'''
+    source venv/bin/activate
 
 4 - Use this command to install the required packages
 
-''' 
-pip install -r requirements.txt
-'''
+    pip install -r requirements.txt
 
+
+5 - Select the virtual environment.
+    Open the Command Pallette (CTRL+Shift+P)/(Cmd+Shift+P) on Mac.
+    Type "Python: Select interpreter".
+    Select the one that starts with venv.
