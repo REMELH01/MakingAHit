@@ -43,11 +43,9 @@ Mac/Linux
 
     source venv/bin/activate
 
-5 - Pip install the following packages
+5 - Install the requirements package.
 
-    pip install pandas
-    pip install matplotlib
-    pip install numpy
+    pip install -r requirements.txt
 
 
 6 - Select the virtual environment.
