@@ -25,7 +25,7 @@ if we will find what makes a hit!
 
 3 - Create a virtual environment.
 
-Windows
+GitBash
 
     python -m venv venv
 
@@ -35,7 +35,7 @@ Mac/Linux
 
 4 - Activate the existing virtual environment with this:
 
-Windows - Command Prompt
+GitBash
 
     venv\Scripts\activate
 
