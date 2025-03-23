@@ -33,6 +33,7 @@ plt.show()
 
 # Next, I would like to see box plots for all the columns I did calculations on.
 # As a reminder, these were dancebility, energy, speechiness, acousticness, valence, and tempo.
+# Tempo will have its own plot because of the fact that tempos are always greater than 1.
 
 HitSongs[['danceability', 'energy', 'speechiness', 'acousticness', 'valence']].boxplot()
 plt.xlabel('Song Features')
@@ -41,11 +42,18 @@ plt.title('Song Feature Boxplot')
 plt.grid(False)
 plt.show()
 
+HitSongs[['tempo']].boxplot()
+plt.xlabel('Tempo')
+plt.ylabel('Beats per Minute')
+plt.title('Song Feature Boxplot - Tempo Only')
+plt.grid(False)
+plt.show()
+
 
 # Interesting! 
-# I want to see what kind of histograms these 5 columns will look like and what they will tell us!
+# I want to see what kind of histograms these 6 columns will look like and what they will tell us!
 
-HitSongs[['danceability', 'energy', 'speechiness', 'acousticness', 'valence']].hist(figsize = (10, 7))
+HitSongs[['danceability', 'energy', 'speechiness', 'acousticness', 'valence', 'tempo']].hist(figsize = (10, 7))
 plt.show()
 
 # This is all for the plots. Please return to the MakingAHit.ipynb file to see my findings!
