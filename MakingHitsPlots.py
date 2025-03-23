@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import mplcursors
-import plotly.express as px
 
 HitSongs = pd.read_csv('HitSongs.csv')
 
@@ -19,9 +18,12 @@ plt.show()
 
 # Here is the second plot. My goal here is to examine the trends between danceability, energy, and valence, and see their correlation. 
 
-plt.plot(HitSongs['energy'], label ='Energy', color = 'red')
-plt.plot(HitSongs['valence'], label = 'Valence', color = 'blue')
-plt.plot(HitSongs['danceability'], label = 'Danceability', color = 'purple')
+x = np.arange(len(HitSongs))
+for column in ['energy', 'valence', 'danceability']:
+    y = HitSongs[column]
+    z = np.polyfit(x, y, 1)
+    p = np.poly1d(z)
+    plt.plot(x, p(x), '--', label = f'{column} trendline')
 plt.legend()
 plt.title('Examining the Trends of Energy, Valence, and Danceability')
 plt.xlabel('Number of songs')
