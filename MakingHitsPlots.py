@@ -4,6 +4,9 @@ import numpy as np
 import mplcursors
 import plotly.express as px
 
+# Here is out first plot. This is a scatter plot comparing the danceability and energy of the songs.
+# Please hover your mouse over the points on this plot to see what song is represented by that plot point! 
+
 HitSongs = pd.read_csv('HitSongs.csv')
 
 fig, ax = plt.subplots()
@@ -15,3 +18,6 @@ ax.set_xlabel('Danceability')
 ax.set_ylabel('Energy')
 
 plt.show()
+
+
+

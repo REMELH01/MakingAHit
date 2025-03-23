@@ -62,4 +62,4 @@ Open the Command Pallette (CTRL+Shift+P)/(Cmd+Shift+P) on Mac.
 Type "Python: Select interpreter".
 Select the one that starts with venv.
 
-PlLEASE NOTE! - You may get a window saying you need to install a kernel to use the notebook. Please download it in order to use the notebook!
+PLEASE NOTE! - You may get a window saying you need to install an ipykernel to use the notebook. Please download it in order to use the notebook!
