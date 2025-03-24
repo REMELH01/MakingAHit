@@ -63,3 +63,8 @@ Type "Python: Select interpreter".
 Select the one that starts with venv.
 
 PLEASE NOTE! - You may get a window saying you need to install an ipykernel to use the notebook. Please download it in order to use the notebook!
+
+## Spotify Playlist
+
+Here is the link to the Spotify playlist based on the songs that are within the ranges at the end of the notebook!
+https://open.spotify.com/playlist/66MLykpjuPr5xCbLOJgHvH?si=dhFJTLG5R8ykhjRuFUydzw
