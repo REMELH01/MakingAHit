@@ -47,19 +47,18 @@ Mac/Linux
 
     source venv/bin/activate
 
-5 - Install the requirements package.
+5a - Install the requirements package.
 
     pip install -r requirements.txt
 
-You don't have to install the requirements package!
+5b - You don't have to install the requirements package!
 You can just do the following:
 
     pip install pandas
     pip install matplotlib
     pip install numpy
     pip install mplcursors
-    pip install plotly
-
+    
 6 - Select the virtual environment.
 Open the Command Pallette (CTRL+Shift+P)/(Cmd+Shift+P) on Mac.
 Type "Python: Select interpreter".
