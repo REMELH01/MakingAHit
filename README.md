@@ -30,24 +30,30 @@ seeing if we will find what makes a hit!
 3 - Create a virtual environment.
 
 GitBash
+
     python -m venv venv
 
 Mac/Linux
+
     python3 -m venv venv
 
 4 - Activate the existing virtual environment with this:
 
 GitBash
+
     venv\Scripts\activate
 
 Mac/Linux
+
     source venv/bin/activate
 
 5 - Install the requirements package.
+
     pip install -r requirements.txt
 
 You don't have to install the requirements package!
 You can just do the following:
+
     pip install pandas
     pip install matplotlib
     pip install numpy
