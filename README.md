@@ -37,7 +37,7 @@ Mac/Linux
 
     python3 -m venv venv
 
-4 - Activate the existing virtual environment with this:
+4 - Activate the virtual environment with this:
 
 GitBash
 
@@ -60,8 +60,8 @@ You can just do the following:
     pip install mplcursors
     
 6 - Select the virtual environment.
-Open the Command Pallette (CTRL+Shift+P)/(Cmd+Shift+P) on Mac.
-Type "Python: Select interpreter".
+Open the Command Pallette (CTRL+Shift+P) on Windows/(Cmd+Shift+P) on Mac.
+Type "Python: Select interpreter" and click on it.
 Select the one that starts with venv.
 
 PLEASE NOTE! - You may get a window saying you need to install an ipykernel to use the notebook. Please download it in order to use the notebook!
@@ -85,27 +85,27 @@ This project was made using Python. Here are the following required packages:
 
 ## Analysis & Visualizations
 
-This project uses several visualizations to aide in the analysis using matplotlib.
-1) Danceability and Energy Comparison - compares the columns titled "danceability" and "energy"
-2) Examining the Trends of Energy, Valence, and Danceabiliy - finds trends comparing the 3 columns named in the title
-3) Song Feature Boxplot - boxplots to compare song features of interest that are all on a scale of 0.0 to 1.0
-4) Song Feature Boxplot: Tempo Only - boxplot of the tempo, as it would not fit properly on previous boxplot
-5) Histograms of Song Features of Interest - gives a deeper insight of popular songs
+This project uses several visualizations to aide in the analysis using matplotlib:
+1) Danceability and Energy Comparison - compares the columns titled "danceability" and "energy"; hover your mouse over one of the data points to see what song it is!
+2) Examining the Trends of Energy, Valence, and Danceabiliy - finds trends comparing the 3 columns named in the plot title.
+3) Song Feature Boxplot - boxplots to compare song features of interest that are all on a scale of 0.0 to 1.0.
+4) Song Feature Boxplot: Tempo Only - boxplot of the tempo, as it would not fit properly on previous boxplot.
+5) Histograms of Song Features of Interest - gives a deeper insight of song features of interest.
 
 
 ## Features Utilized 
 | Feature | Description |
 | --- | ---|
 | Loading Data | Used 2 CSV files from Kaggle |
-| Clean and Operate on the data while combining them | Cleaned and preformed a pandas merge on the CSV files |
+| Clean and Operate on the data while combining them | Cleaned and preformed a pandas merge on the CSV files, calculated some new values based on the new dataframe |
 | Visualize / Present your data | Made 5 matplotlib visualizations to display the data |
-| Best Practices | Utilized a virtual environment AND made a custom data dictionary |
-| Interpret your data | Annotated my code throughout the notebook, with final findings at the end of the notebook |
+| Best Practices | Utilized a virtual environment AND made a custom data dictionary notebook |
+| Interpret your data | Annotated my code throughout the notebook, with final findings at the end of the MakingAHit notebook |
 
 
 ## Spotify Playlist
 
-Here is the link to the Spotify playlist based on the songs that are within the ranges at the end of the notebook!
+Here is the link to the Spotify playlist based on the songs that are within the ranges towards the end of the notebook!
 https://open.spotify.com/playlist/66MLykpjuPr5xCbLOJgHvH?si=dhFJTLG5R8ykhjRuFUydzw
 
 
