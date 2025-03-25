@@ -17,6 +17,8 @@ the lists, and use the data from the Spotify Tracks to see what makes a hit? Is
 it how danceable the song is, the energy of the song, how loud it is? Here is to 
 seeing if we will find what makes a hit!
 
+Please note - the main notebook file for this project is the MakingAHit.ipynb file.
+
 
 ## This project utilizes a virtual environment. 
 ### Here is how you use it:
