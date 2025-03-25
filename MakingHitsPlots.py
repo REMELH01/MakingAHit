@@ -5,7 +5,7 @@ import mplcursors
 
 HitSongs = pd.read_csv('HitSongs.csv')
 
-# Here is out first plot. This is a scatter plot comparing the danceability and energy of the songs.
+# Here is our first plot. This is a scatter plot comparing the danceability and energy of the songs.
 # Please hover your mouse over the points on this plot to see what song is represented by that plot point! 
 
 fig, ax = plt.subplots()
@@ -31,9 +31,9 @@ plt.ylabel('Energy, Valence, and Danceability')
 plt.show()
 
 
-# Next, I would like to see box plots for all the columns I did calculations on.
+# Next, I would like to see box plots for all the columns of interest.
 # As a reminder, these were dancebility, energy, speechiness, acousticness, valence, and tempo.
-# Tempo will have its own plot because of the fact that tempos are always greater than 1.
+# Tempo will have its own plot because of the fact that all the tempos are greater than.
 
 HitSongs[['danceability', 'energy', 'speechiness', 'acousticness', 'valence']].boxplot()
 plt.xlabel('Song Features')
@@ -51,7 +51,7 @@ plt.show()
 
 
 # Interesting! 
-# I want to see what kind of histograms these 6 columns will look like and what they will tell us!
+# I want to see how the histograms of these 6 columns will look like and what they will tell us!
 
 HitSongs[['danceability', 'energy', 'speechiness', 'acousticness', 'valence', 'tempo']].hist(figsize = (10, 7))
 plt.show()

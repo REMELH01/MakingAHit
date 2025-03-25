@@ -2,14 +2,14 @@
 
 This project was created as my capstone project for Code:You!
 
-I have a fun background in music, as I got my undergraduate degree from Eastern
-Kentucky University in music industry. Because of this background, I am always 
-interested in the current trends in music and what makes songs popular.
+I have a extensive background in music, as I got my undergraduate degree from 
+Eastern Kentucky University in Music Industry. Because of this background, I am 
+always interested in the current trends in music and what makes songs popular.
 
 
 ## Overview
 
-This is a question I hope to answer with this project! I want to know: what makes 
+That is a question I hope to answer with this project! I want to know: what makes 
 a song a hit? I will be comparing data from 2 data sets - one has songs from the 
 Billboard Top 100 list, and the other has data that tracks several data points of 
 over 1800 songs from Spotify. My goal is to compare the songs that are on both of 
