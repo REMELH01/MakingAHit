@@ -118,6 +118,12 @@ image, it seems that grunge, country, hard rock, disco, and dance are all
 popular genres in the music industry, and it seems that making a song in one of 
 these genres, you may have a better chance of making a hit!
 
+If you would like to view the Tableau for yourself, here is the link:
+https://public.tableau.com/views/GenreCloud/Sheet1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+If you hover over the different genres in the word cloud on the Tableau website, 
+it will tell you how may songs used that genre!
+
 
 ## Spotify Playlist
 
