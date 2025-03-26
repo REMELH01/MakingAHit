@@ -101,12 +101,23 @@ This project uses several visualizations to aide in the analysis using matplotli
 | --- | ---|
 | Loading Data | Used 2 CSV files from Kaggle |
 | Clean and Operate on the data while combining them | Cleaned and preformed a pandas merge on the CSV files, calculated some new values based on the new dataframe |
-| Visualize / Present your data | Made 5 matplotlib visualizations to display the data |
+| Visualize / Present your data | Made 5 matplotlib visualizations to display the data; added a Tableau word cloud of the song genres |
 | Best Practices | Utilized a virtual environment AND made a custom data dictionary notebook |
 | Interpret your data | Annotated my code throughout the notebook, with final findings at the end of the MakingAHit notebook |
 
 ## Tableau Word Cloud of Genres
 ![Genre Word Cloud](GenreCloud.png)
+
+While we were able to find that grunge is the most popular genre in the combined 
+dataset, it doesn't tell us everything about other popular genres! I wanted to 
+see what other genres may be trending, and I thought a visually appealing way to 
+display data such as that would be in Tableau by making a word cloud! By doing 
+this, in addition to the Spotify playlist I made using ranges I found after 
+examining my data, I can definitely see a trend of popular genres! Using this 
+image, it seems that grunge, country, hard rock, disco, and dance are all 
+popular genres in the music industry, and it seems that making a song in one of 
+these genres, you may have a better chance of making a hit!
+
 
 ## Spotify Playlist
 
